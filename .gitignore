@@ -1,0 +1,9 @@
+*.tfstate
+.terraform
+mykey
+mykey.pub
+tf.out
+*.backup
+output.txt
+instance.txt
+user-data.sh
