@@ -55,7 +55,7 @@ try {
           secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
         ]]) {
           ansiColor('xterm') {
-            sh 'terraform apply -auto-approve' // Se pone -auto-approve para evitar escribir YES.
+            bat 'terraform apply -auto-approve' // Se pone -auto-approve para evitar escribir YES.
           }
         }
       }
